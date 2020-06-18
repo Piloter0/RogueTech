@@ -1,12 +1,13 @@
 <?xml version="1.0" ?>
 <RogueTechConfig>
 	<RequiredBattleTechVersion>1.9.1</RequiredBattleTechVersion>
-	<RequiredLauncherVersion>1.1.0</RequiredLauncherVersion>
-	<SecureHash>FmkWMhZZFm0WEBYyFqYWcRazFgYW2xbVFsoW3BZoFmU=</SecureHash>
+	<RequiredLauncherVersion>1.1.3</RequiredLauncherVersion>
+	<SecureHash>FjUWsxbOFgQWMhZqFgwWcxYHFqMWchb3FgMWrhZQFr8=</SecureHash>
 	<showCoreItems>false</showCoreItems>
 	<Tasks>
 		<InstallTask>
 			<Id>coreInstall</Id>
+			<autoSelectOn/>
 			<canSelect>false</canSelect>
 			<excludePaths>RtConfig.xml,.git,.modtek,.git,log.txt,LowVisFOWRedraw,LowVisFOWRedrawOff,LowVisNightVisionOn,LowVisNightVisionOff,MC-NoAllies,MC-Allies,MC-Randomizer,MC-NoRandomizer,MC-Mapsize-STD,MC-Mapsize-33,MC-Mapsize-66,MC-Mapsize-100,Flashpoint_FightingGhosts,Heretek,RTAssetsSetup.iss,*.log,CutesyEmblems,Screams,ScreamsNo,FireOld,FireNew,OmegaSquadPilots,PilotsProcedural,PilotsRonin,SortBy,SortByTonnage,SortByCost,SortByName,CombatLogOn,CombatLogOff,BetterHeadlights,ScorchedEarth,BT_Advanced_Pilots,Word of Blake Emblems,RogueOmnis,RogueOmnisFlashpoint,RogueOmnisHeavyMetal,Republic HeavyMetal Unique,Republic HeavyMetal,DarkAge HeavyMetal,UrbieNuke Heavy Metal,RogueModuleElitesHeavyMetal,PirateTech Urbanwarfare Module,PirateTech HeavyMetal Module,PirateTech Flashpoint Module,Jihad HeavyMetal Unique,Jihad Heavy metal,ClanUpgradesJihad HeavyMetal,Civil War Heavy Metal Unique,Civil War Heavy Metal,Base HeavyMetal Unique,Civil War FlashPoint,Base UrbanWarfare Unique,Base HeavyMetal,RogueHeavyMetalModule,ContractSort,GalaxyAtWar,PersistentMapClient,RogueUrbanWarfareModule,LV426,Warhammer Emblems,NROL Emblems,HistoricPirateFlags,rubyscripts,RepublicArtillery,Risc Urban Warfare,RogueModuleElitesFlashpoint,MechPortraitsArmakoir,MechPortraitsENOVA,MechPortraitsJK,MechPortraitsCrew,RogueTechDebug,ClanUpgrades,ClanUpgradesCivilWar,ClanUpgradesDarkAge,ClanUpgradesJihad,ClanUpgradesRepublic,Protomechs,GlobalDifficultyByRep,RogueFlashPointModuleStoryline,DarkAgeArtillery,PirateTech,RISCtech module,Dark Age Unique,Jihad Urban Warfare,Jihad Unique,Jihad 3068-3080,Republic Unique Mechs,Republic Urban Warfare,Republic FlashPoint,Civil War Unique,Base FlashPoint,Civil War Urban Warfare,CivilWar 3062-3067,Base UrbanWarfare,Republic 3081-3130,RogueTechSounds,UrbocalypseDarkAge,EnovaEmblems,FlashPointArtillery,DarkAge,FlashPointDarkAge,ExperimentalWeapons_SHcompat,Urbocalypse,ArtilleryUnits,LootedClanMechs,The Drones Of Syberia,ClanEmblems,SpeedMod,Speedx25,Speedx50,Speedx75,Speedx100,Flashpoint-The-Raid,SkipTravelCutscenes,RandomTravelContracts,PersistentMapClient,RogueModuleElites,CommanderPortraitLoader,Superheavys,RogueFlashPointModule,ExperimentalWeapons,RaelM Emblem,UrbieNuke,GlobalDifficultyByCompany,GlobalDifficultyByPlanets,Retrainer,Silence,FreeCam,BindableEscapeKey,ArmorRepair,ArmorPoints,RogueEmblems,All 3025 Mercs,Capellan Emblems,SkipIntro,CrystalClear,PirateTechNuke,UrboCalypseMBT</excludePaths>
 			<isSelected>true</isSelected>
@@ -22,6 +23,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>offline</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -37,6 +39,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>GlobalDifficultyByCompany</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -52,6 +55,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>GlobalDifficultyByPlanets</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -67,6 +71,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RandomSpawning</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -82,6 +87,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>NoRandomSpawning</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -97,6 +103,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>AlliesActive</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -112,6 +119,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>AlliesDisabled</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -127,6 +135,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>MapSelectStd</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -142,6 +151,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>MapSelect33</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -157,6 +167,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>MapSelect66</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -172,6 +183,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>MapSelect100</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -187,6 +199,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>CombatLogOff</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -202,6 +215,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>CombatLogOn</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -217,6 +231,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>PilotsRonin</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -232,6 +247,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>PilotsProcedural</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -247,6 +263,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueFlashPointModule</Id>
+			<autoSelectOn>flashpoint</autoSelectOn>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -262,6 +279,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueUrbanWarfareModule</Id>
+			<autoSelectOn>urbanwarfare</autoSelectOn>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -277,6 +295,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueHeavyMetalModule</Id>
+			<autoSelectOn>heavymetal</autoSelectOn>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -292,6 +311,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueCivilWar</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -307,6 +327,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueJihad</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -322,6 +343,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueRepublic</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -337,6 +359,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueDarkAge</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -352,6 +375,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueCivilWarUnique</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -367,6 +391,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueJihadUnique</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -382,6 +407,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueRepublicUnique</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -397,6 +423,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueDarkAgeUnique</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -412,6 +439,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>Protomechs</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -427,6 +455,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>ClanUpgrades</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -442,6 +471,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>LootedClanMechs</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -457,6 +487,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>Urbocalypse</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -472,6 +503,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueOmnis</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -487,6 +519,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>PirateTech</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -502,6 +535,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueModuleElites</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -517,6 +551,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RISCtechmodule</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -532,6 +567,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>Superheavys</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -547,6 +583,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>UrbieNuke</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -562,6 +599,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>ExperimentalWeapons</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -577,6 +615,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueFlashPointModuleStoryline</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -592,6 +631,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>LV426</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -607,6 +647,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>TheDronesOfSyberia</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -622,6 +663,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>Heretek</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -637,6 +679,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>FP_FightingGhosts</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -652,6 +695,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>BTAPilots</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -667,6 +711,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>OmegaSquad</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -682,6 +727,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueEmblems</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -697,6 +743,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RaelMEmblem</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -712,6 +759,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>merc3025Emblems</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -727,6 +775,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>CapellanEmblems</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -742,6 +791,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>WobEmblems</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -757,6 +807,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>ClanEmblems</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -772,6 +823,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>EnovaEmblems</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -787,6 +839,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>NROLEmblems</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -802,6 +855,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>WarhammerEmblems</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -817,6 +871,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>HistoricPirateFlags</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -832,6 +887,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>CutesyEmblems</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -847,6 +903,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>Screams</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -862,6 +919,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>ScreamsNo</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -877,6 +935,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>NewFire</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -892,6 +951,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>OldFire</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -907,6 +967,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>NightVisionOn</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -922,6 +983,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>NightVisionOff</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -937,6 +999,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RedrawFogOfWarOn</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -952,6 +1015,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RedrawFogOfWarOff</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -967,6 +1031,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>SpeedModNone</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -982,6 +1047,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>SpeedModx25</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -997,6 +1063,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>SpeedModx50</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -1012,6 +1079,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>SpeedModx75</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -1027,6 +1095,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>SpeedModx100</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -1042,6 +1111,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>skipintro</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -1057,6 +1127,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>Retrainer</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -1072,6 +1143,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>BindableEscapeKey</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -1087,6 +1159,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueTechDebug</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -1102,6 +1175,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>NoSorter</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -1117,6 +1191,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>SortByCost</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -1132,6 +1207,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>SortByTonnage</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -1147,6 +1223,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>SortByName</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -1162,6 +1239,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>CommanderPortraitLoader</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -1177,6 +1255,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>RogueTechSounds</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -1192,6 +1271,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>SkipTravelCutscenes</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -1207,6 +1287,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>CrystalClear</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -1222,6 +1303,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>Silence</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -1237,6 +1319,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>ScorchedEarth</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -1252,6 +1335,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>BetterHeadlights</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -1267,6 +1351,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>MechPortraitsCrew</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -1282,6 +1367,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>MechPortraitsENOVA</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -1297,6 +1383,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>ArmorRepair</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -1312,6 +1399,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>ArmorPoints</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -1327,6 +1415,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>modtekInstall</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -1342,6 +1431,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>Cleanup</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -1357,6 +1447,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>CleanSaves</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -1372,6 +1463,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>defaultRender</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>true</isSelected>
@@ -1387,6 +1479,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>mThreadRender</Id>
+			<autoSelectOn/>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
