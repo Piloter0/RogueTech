@@ -35,7 +35,7 @@
     "UIName": "UrbanMech",
     "Id": "chassisdef_urbanmech_UM-R10",
     "Name": "UrbanMech",
-    "Details": "This adorable Trashcan was refit to be used for Agrarian work and self defense on the Deep Periphery.",
+    "Details": "Urbanmechs and their parts are common on the Deep Periphery. This one has been modified for farming work with a brush-clearing incinerator and light-caliber rifles for defensive use.",
     "Icon": "uixTxrIcon_urbanmech"
   },
   "VariantName": "UM-R10",
@@ -46,7 +46,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Defender",
-  "YangsThoughts": "This adorable Trashcan was refit to be used for Agrarian work and self defense on the Deep Periphery.",
+  "YangsThoughts": "You've been getting some bad information, Boss. Imagine a motorized scarecrow that can turn a full circle. Strap a weed burner to it, maybe a couple regular-human-size rifles. Decent enough against pests, I guess. This? This fires a 20-kilo shell and can hurl napalm to the height of a decent-size office building. I asked Sumire if Pomme De Terre had anything that required that much agricultural firepower and she just muttered something about riot control at the start of the Third Sucession Wars.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_urbie",
