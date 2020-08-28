@@ -35,7 +35,7 @@
     "UIName": "UrbanMech",
     "Id": "chassisdef_urbanmech_UM-R25A",
     "Name": "UrbanMech",
-    "Details": "Taking inspiration from the R20 series of mechs, this urban mech was designed from the ground up; to be a cheap and nasty ambusher aimed at the mercenary market. The combination of stealth armour and rockets allow it to savage targets and withdraw.",
+    "Details": "This Urbanmech draws on the R20's concept of a cheap ambusher with a devastating punch, but dirties up that punch by making it with incindiary rockets. Stealth armor and ER Medium Lasers give it much better survivabiity whether approaching or retreating into the smoke. Survivability and sheer shock value have made it of interest to organizations or individuals looking to make a certain impression.",
     "Icon": "uixTxrIcon_urbanmech"
   },
   "VariantName": "UM-R25",
@@ -44,7 +44,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Ambusher",
-  "YangsThoughts": "Taking inspiration from the R20 series of mechs, this urban mech was designed from the ground up; to be a cheap and nasty ambusher aimed at the mercenary market. The combination of stealth armour and rockets allow it to savage targets and withdraw.",
+  "YangsThoughts": "You know, with a R25 at least the pilot's a clean professional. The R25A's for the pilot whose idea of a bar fight is to start by smashing a bottle over the other person's head and throw a lit match into the alcohol. I guess what I'm saying is keep an eye on anybody who volunteers to pilot this one, Boss. Maybe they're just having a real bad month...or maybe they need some downtime with the Medtechs.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_urbie",
