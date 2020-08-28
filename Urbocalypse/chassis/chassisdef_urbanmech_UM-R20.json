@@ -35,7 +35,7 @@
     "UIName": "UrbanMech",
     "Id": "chassisdef_urbanmech_UM-R20",
     "Name": "UrbanMech",
-    "Details": "A typical refit seen in the periphery, this is the salvaged remains of multiple Urbanmechs; sheathed in repurposed industrial armour and carrying just enough ammo to survive a battle.",
+    "Details": "This Periphery refit can be built very cheaply from scrap parts, repurposed industrial armor, and some time to turn farming chemicals into explosives. One hundred twenty rockets pack a devastating punch but if the target survives, the UM-R20 won't.",
     "Icon": "uixTxrIcon_urbanmech"
   },
   "VariantName": "UM-R20",
@@ -46,7 +46,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Anti-Tank",
-  "YangsThoughts": "A typical refit seen in the periphery, this is the salvaged remains of multiple Urbanmechs; sheathed in repurposed industrial armour and carrying just enough ammo to survive a battle.",
+  "YangsThoughts": "Those rockets are armed all the time. There's no range limiter. There's no impact strength limiter. There's no electrical shock protection. If this thing ever falls over, there's going to be a crater. To have to go to battle in something like this, to be that desperate...Boss, every now and then, it's good to be reminded that we really are living a good life.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_urbie",
