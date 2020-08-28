@@ -35,7 +35,7 @@
     "UIName": "UrbanMech",
     "Id": "chassisdef_urbanmech_UM-R25",
     "Name": "UrbanMech",
-    "Details": "Taking inspiration from the R20 series of mechs, this urban mech was designed from the ground up; to be a cheap and nasty ambusher aimed at the mercenary market. The combination of stealth armour and rockets allow it to savage targets and withdraw.",
+    "Details": "This Urbanmech draws on the R20's concept of a cheap ambusher with a devastating punch. Adding stealth armor and ER Medium Lasers makes it more likely to survive the ambush. This has made it of considerably more interest to mercenary companies.",
     "Icon": "uixTxrIcon_urbanmech"
   },
   "VariantName": "UM-R25",
@@ -44,7 +44,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Ambusher",
-  "YangsThoughts": "Taking inspiration from the R20 series of mechs, this urban mech was designed from the ground up; to be a cheap and nasty ambusher aimed at the mercenary market. The combination of stealth armour and rockets allow it to savage targets and withdraw.",
+  "YangsThoughts": "We're in a dirty business, Boss, but this is just a nasty piece of work. No desperate commoner's going to go fight in this, this is a professional's tool. If the R20 is a bar fight where somebody pulls a knife, then the R25's the vibroblade in your back while you're draining off a beer.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_urbie",
