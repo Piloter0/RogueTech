@@ -35,7 +35,7 @@
     "UIName": "UrbanMech",
     "Id": "chassisdef_urbanmech_UM-R25B",
     "Name": "UrbanMech",
-    "Details": "Taking inspiration from the R20 series of mechs, this urban mech was designed from the ground up; to be a cheap and nasty ambusher aimed at the mercenary market. The combination of stealth armour and rockets allow it to savage targets and withdraw.",
+    "Details": "This Urbanmech draws on the R20's concept of a cheap ambusher with a devastating punch. More costly components have begun to swing the needle away from 'cheap', but one hundred twenty shaped-charge warheads and stealth armor make the R25B capable of doing devastating internal damage to even the largest Mechs and much more likely to escape afterward. This has made it of considerable interest to organizations or individuals , but dirties up that punch by making it with incindiary rockets. Stealth armor and ER Medium Lasers give it much better survivabiity whether approaching or retreating into the smoke. Survivability and sheer shock value have made it of interest to organizations or individuals looking to make a certain impression.",
     "Icon": "uixTxrIcon_urbanmech"
   },
   "VariantName": "UM-R25",
@@ -44,7 +44,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Ambusher",
-  "YangsThoughts": "Taking inspiration from the R20 series of mechs, this urban mech was designed from the ground up; to be a cheap and nasty ambusher aimed at the mercenary market. The combination of stealth armour and rockets allow it to savage targets and withdraw.",
+  "YangsThoughts": "I get the entire point of a Battlemech, Boss. Defeat the opposition by whatever means possible. And this is about the definition of a 'force multiplier'. Better targeting, a good shot, and one R25-B equals one cratered, oblivious heavy. Just don't want to think about any of our folks getting jumped by three lances of these, you know?",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_urbie",
